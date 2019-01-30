@@ -77,14 +77,17 @@ margin-top: 0px;
   margin-top: 0;
   margin-bottom: 20px;
   background-color: #fff;
-  height: 1000px;
+  /*height: 100px;*/
 }
 
 .left-contents {
   width: 600px;
-  /*margin-right: 20px;*/
+  margin-right: 20px;
   float: left;
   margin-top: 0;
+  .left_text {
+   width: 400px;
+ }
 }
 
 .right-contents {
@@ -92,6 +95,9 @@ margin-top: 0px;
   /*height: 600px;*/
   float: left;
   margin-top: 0;
+  .right_text {
+   width: 250px;
+ }
 }
 
 
@@ -166,13 +172,16 @@ margin-top: 0px;
   
 }
 
-.copyright {
-  color: #777;
-  text-align: center;
-}
-
 .main:after {
   clear: both;
   display: block;
   content: " ";
 }
+
+
+
+.copyright {
+  color: #777;
+  text-align: center;
+}
+
